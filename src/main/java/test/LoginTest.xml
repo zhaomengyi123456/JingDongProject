@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="3" allow-return-values="true">
+    <test name="testlogin">
+        <parameter name="url" value="http://127.0.0.1/pro/user-login.html"/>
+        <!--<parameter name="time" value="3000"/>-->
+        <!--<parameter name="time" value="3000"/>-->
+        <parameter name="account" value="account"/>
+        <parameter name="passwd" value="password"/>
+        <parameter name="submit" value="submit"/>
+        <!--<parameter name="time" value="3000"/>-->
+        <classes>
+            <class name="JingDongProject.LoginTest"/>
+        </classes>
+    </test>
+</suite>

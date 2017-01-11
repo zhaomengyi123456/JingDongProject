@@ -1,0 +1,21 @@
+#TPshop登录页面的元素分离
+Login_userName:
+  type: xpath
+  value: "//input[@name='username']"
+
+Login_passwd:
+  type: xpath
+  value: "//input[@id='password']"
+
+Login_Loginbutton:
+  type: xpath
+  value: "//button[@type='button']"
+
+Login_errormsg:
+  type: xpath
+  value: "//div[@class='layui-layer-content layui-layer-padding']"
+
+Login_acception:
+  type: xpath
+  value: "//a[@class='layui-layer-btn0']"
+

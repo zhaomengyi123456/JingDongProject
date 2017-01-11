@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="3" allow-return-values="true">
+<!--这里写的参数是全局参数，对所有的test都有效-->
+    <test name="test1">
+        <!--这里写的参数就只对本test有效-->
+        <parameter name="url" value="http://127.0.0.1/zentaopro.php"/>
+        <classes>
+
+            <class name="test.OpenZenTao"/>
+
+        </classes>
+    </test>
+
+    <!--<test name="test2">-->
+        <!--&lt;!&ndash;parameter name="str" value="TestNG is working fine"/&ndash;&gt;-->
+        <!--<classes>-->
+
+            <!--<class name="test.testngDemo1"/>-->
+
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="test3">-->
+        <!--<classes>-->
+            <!--<class name="test.tesCalc">-->
+                <!--<methods>-->
+                    <!--<include name="chu"/>-->
+
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="test4">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="testcase02"/>-->
+            <!--</run>-->
+            <!--<dependencies>-->
+                <!--<group name="testcase0" depends-on="testcase02"/>-->
+            <!--</dependencies>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="test.GruopTest"/>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<listeners>-->
+        <!--<listener class-name="test.GruopTest"/>-->
+    <!--</listeners>-->
+</suite>

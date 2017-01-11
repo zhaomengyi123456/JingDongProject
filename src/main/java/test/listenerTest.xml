@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="3" allow-return-values="true">
+
+    <test name="test4">
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="testcase02"/>-->
+            <!--</run>-->
+            <!--<dependencies>-->
+                <!--<group name="testcase0" depends-on="testcase02"/>-->
+            <!--</dependencies>-->
+        <!--</groups>-->
+
+        <classes>
+            <class name="test.testngDemo1"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <!--<listener class-name="org.uncommons.reportng.HTMLReporter"/>-->
+        <!--<listener class-name="com.app.cn.CListener"/>-->
+    </listeners>
+
+
+</suite>

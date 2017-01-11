@@ -1,0 +1,3 @@
+Login_before:
+  type: xpath
+  value: "//a[text()='账户登录']"

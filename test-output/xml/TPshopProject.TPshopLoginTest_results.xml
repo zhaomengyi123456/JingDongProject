@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="logintest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="31.480">
+  <properties />
+  
+  
+            <testcase name="LoginTest" time="10.451" classname="TPshopProject.TPshopLoginTest" />
+                <testcase name="LoginTest" time="9.124" classname="TPshopProject.TPshopLoginTest" />
+                <testcase name="LoginTest" time="11.905" classname="TPshopProject.TPshopLoginTest" />
+      
+</testsuite>

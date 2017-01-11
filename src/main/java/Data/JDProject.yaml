@@ -1,0 +1,37 @@
+#在yaml里面，结构通过缩进来表示，yaml不支持制表符tab缩进，请使用空格缩进
+Login_before:
+  type: xpath
+  value: "//a[text()='账户登录']"
+
+Login_userName:
+  type: xpath
+  value: "//input[@id='loginname']"
+
+Login_passwd:
+  type: xpath
+  value: "//input[@id='nloginpwd']"
+
+Login_autoLogin:
+  type: xpath
+  value: "//input[@id='autoLogin']"
+
+Login_submit:
+  type: xpath
+  value: "//a[@id='loginsubmit']"
+
+Login_errormsg:
+  type: xpath
+  value: "//div[@class='msg-error']"
+
+Setting_accountSet:
+  type: xpath
+  value: "//span[text()='账户设置']"
+
+Setting_pInfo:
+  type: xpath
+  value: "//span[text()='个人信息']"
+
+Setting_sex:
+  type: xpath
+  value: "//input[@value='1']"
+
